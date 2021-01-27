@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 body{
     padding: 0%;
     margin: 0%;
@@ -37,15 +37,16 @@ div.inner{
     -o-transform: scale(1.01);
 }
 ul{
+    margin-top: 50px;
     list-style-type: none;
     font-family: 'Lato', sans-serif;
     font-size: larger;
-    margin-top: 0px;
+    
 }
 li{
     padding-bottom: 5px;
 }
-h2{
+h2.ques{
     margin-top: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -54,9 +55,9 @@ h2{
     text-align: center;
     font-family: 'Nova Square', cursive;
 }
-button{
-    margin-top: 100px;
-    margin: 0 160px;
+button#sub{
+    margin-top: 30px;
+    margin-left: 160px;
     width: 80px;
     background-color: #e27802;
     outline: none;
@@ -71,23 +72,47 @@ button{
     font-size: large;    
     
 }
-button:hover{
+button#sub:hover{
     background-color: #ffa62b;
 }
-button:active{
+button#sub:active{
     background-color: #db6400;
-    padding: 0 10px 0 10px;
 }
 div#showscore{
     background-color: #ffcb8e;
-    width: 3rem;
-    padding: 2rem  10rem;
-    margin-top: 20px;
+    width: 23rem;
+    height: 100px;
+    margin-top: 50px;
     margin-left: 15px;
-    margin-bottom: 10px;
+   margin-bottom: 10px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 .showarea{
     display: none;
+}
+.res{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+.tub{
+ margin-left: 80px;
+ margin-right: 100px;
+ outline: none;
+ border: none;
+ width: 100px;
+ padding: 3px;
+ background-color: #ffa931;
+ border-radius:10px ;
+ -webkit-border-radius:10px ;
+ -moz-border-radius:10px ;
+ -ms-border-radius:10px ;
+ -o-border-radius:10px ;
+}
+button.tub:hover{
+    background-color: #ffa62b;
+}
+button.tub:active{
+    background-color: #db6400;
 }

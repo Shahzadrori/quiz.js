@@ -1,0 +1,17 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: url('https://lh3.googleusercontent.com/6hWnYEhzGhRx8gvtGX58Cz_ecQiSKJkn05wEFmGSRY5Ja7RmoSKN6WzYDBn2vxCirp0V=s152');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div.inner{
+    border: 1px solid;
+}

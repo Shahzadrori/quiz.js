@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 body{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    background-image: url('https://lh3.googleusercontent.com/6hWnYEhzGhRx8gvtGX58Cz_ecQiSKJkn05wEFmGSRY5Ja7RmoSKN6WzYDBn2vxCirp0V=s152');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk1I9u9fV1jLEWXaLjK-7zyWjqNwqau_ok0A&usqp=CAU');
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 div.wraper{
     display: flex;
@@ -13,5 +16,78 @@ div.wraper{
     height: 100vh;
 }
 div.inner{
-    border: 1px solid;
+    border: 1px solid ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 400px;
+    min-height: 350px;
+    word-wrap: break-word;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+
+    max-height: 500px;
+}
+.inner:hover{
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+ul{
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    margin-top: 0px;
+}
+li{
+    padding-bottom: 5px;
+}
+h2{
+    margin-top: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #81b214;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Nova Square', cursive;
+}
+button{
+    margin-top: 100px;
+    margin: 0 160px;
+    width: 80px;
+    background-color: #e27802;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: aliceblue;
+    font-family: 'Satisfy', cursive;
+    font-size: large;    
+    
+}
+button:hover{
+    background-color: #ffa62b;
+}
+button:active{
+    background-color: #db6400;
+    padding: 0 10px 0 10px;
+}
+div#showscore{
+    background-color: #ffcb8e;
+    width: 3rem;
+    padding: 2rem  10rem;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.showarea{
+    display: none;
 }
